@@ -74,8 +74,10 @@ header nav a:hover {
   margin-top: 20rem;
   text-decoration: underline;
   font-size: 30px;
-  color: white;
   display: inline;
   display: flex;
   gap: 2rem;
+}
+.github a {
+  color: rgb(186, 40, 40);
 }
