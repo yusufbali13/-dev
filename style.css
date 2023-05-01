@@ -3,11 +3,12 @@
   margin: 0;
   box-sizing: border-box;
   background-color: #131e25;
+  text-align: center;
 }
 
 .Anthony {
   color: white;
-  text-align: center;
+
   margin-top: 3rem;
   font-size: 1.9rem;
   cursor: pointer;
@@ -37,14 +38,13 @@ header nav a:hover {
 }
 .developer {
   color: white;
-  text-align: center;
+
   margin-top: 8rem;
   font-size: 2rem;
   font-family: "Rampart One", cursive;
 }
 
 #projects {
-  text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
   min-height: 600px;
@@ -65,14 +65,13 @@ header nav a:hover {
 
 .my {
   color: white;
-  text-decoration: underline;
+  border-bottom: 2px solid #ffff;
   font-size: 3rem;
 }
 
 .contact {
-  text-align: center;
   margin-top: 20rem;
-  text-decoration: underline;
+  border-bottom: 2px solid #ffff;
   font-size: 30px;
   display: inline;
   display: flex;
