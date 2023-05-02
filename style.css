@@ -36,16 +36,24 @@ header nav a:hover {
   opacity: 0.8;
   color: rgb(137, 71, 25);
 }
+
+#about {
+  color: white;
+  font-size: 3rem;
+  margin-top: 15rem;
+  font-family: "Rampart One", cursive;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgb(137, 71, 25);
+}
+
 .developer {
   color: white;
-
-  margin-top: 8rem;
+  margin-top: 2rem;
   font-size: 2rem;
   font-family: "Rampart One", cursive;
 }
 
 #projects {
-  margin-top: 60px;
   margin-bottom: 20px;
   min-height: 600px;
   margin-top: 366px;
@@ -65,7 +73,7 @@ header nav a:hover {
 
 .my {
   color: white;
-  border-bottom: 2px solid #ffff;
+  border-bottom: 2px solid rgb(137, 71, 25);
   font-size: 3rem;
 }
 
@@ -77,6 +85,8 @@ header nav a:hover {
   display: flex;
   gap: 2rem;
 }
-.github a {
+.github {
   color: rgb(186, 40, 40);
+  text-decoration: none;
+  margin-bottom: 15rem;
 }
