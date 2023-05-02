@@ -105,7 +105,6 @@ h4 {
 input,
 textarea,
 #send {
-  margin-top: 0.2rem;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -113,9 +112,70 @@ textarea,
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid rgb(137, 71, 25);
+  border: 2px solid rgb(144, 111, 88);
   padding: 13px;
   margin-bottom: 15px;
   width: 50%;
   outline: 0;
+}
+::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+input:focus,
+textarea:focus {
+  border: 2px solid rgb(137, 71, 25);
+}
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+#send {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  background: rgb(144, 111, 88);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  opacity: 0.7;
+  font-weight: 900;
+}
+
+#send:hover::after {
+  content: " ✉";
+  font-size: 30px;
+}
+
+#send:hover {
+  opacity: 1;
+  color: rgb(137, 71, 25);
+}
+
+.head {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #999;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  opacity: 0.7;
+}
+
+.head:hover {
+  color: gold;
+  opacity: 1;
 }
